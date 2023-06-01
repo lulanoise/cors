@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("custom")
-@CrossOrigin("http://localhost:8080")
+@CrossOrigin("http://localhost:5000")
 public class CustomController {
 
     @GetMapping("")
